@@ -19,7 +19,7 @@ mongoose.connect("mongodb+srv://ezra8473:5E4qyntirsiIVdPm@backenddb.t0gxh.mongod
 
 
 app.get('/', (req,res)=>{
-    res.send("Hello from Node API");
+    res.send("Congrats, you got the server working! -Ezra");
 })
 
 app.post('/api/products', async (req,res) => {
