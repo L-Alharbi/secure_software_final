@@ -45,3 +45,10 @@ but if you have issues with database access lmk
 	"quantity":10,
 	"price":3.99
 }
+
+
+
+-----Testing tool-----
+pip install requests
+npm run dev
+python Api_Tester.py

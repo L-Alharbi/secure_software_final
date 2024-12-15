@@ -1,0 +1,40 @@
+[
+    {
+        "url": "http://localhost:3000/api/products",
+        "method": "GET",
+        "params": {},
+        "headers": {}
+    },
+    {
+        "url": "http://localhost:3000/api/products",
+        "method": "POST",
+        "params": {
+            "name": "str",
+            "price": "float",
+            "description": "str"
+        },
+        "headers": {}
+    },
+    {
+        "url": "http://localhost:3000/api/product/:id",
+        "method": "GET",
+        "params": {},
+        "headers": {}
+    },
+    {
+        "url": "http://localhost:3000/api/product/:id",
+        "method": "PUT",
+        "params": {
+            "name": "str",
+            "price": "float",
+            "description": "str"
+        },
+        "headers": {}
+    },
+    {
+        "url": "http://localhost:3000/api/product/:id",
+        "method": "DELETE",
+        "params": {},
+        "headers": {}
+    }
+]
