@@ -6,16 +6,23 @@ then run the console command to start the server (shown below)
 if it works the console will print "connected to database   server is running on port 3000"
 go to your internet browser at http://localhost:3000/ to see if it worked
 
-download requirements:
+Download requirements:
 node.js
 
-npm install:
-nodemon
-mongoose
-express
+
+Dependencies:
+npm install nodemon
+npm install mongoose
+npm install express
+pip install requests
+
+
 
 start server:
 npm run dev
+
+Use the tool:
+python Api_Tester.py
 
 
 
@@ -46,9 +53,3 @@ but if you have issues with database access lmk
 	"price":3.99
 }
 
-
-
------Testing tool-----
-pip install requests
-npm run dev
-python Api_Tester.py
